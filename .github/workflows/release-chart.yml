@@ -22,7 +22,7 @@ jobs:
   #          echo "$LOCAL" = "$REMOTE"
   #          test "$LOCAL" = "$REMOTE"
 
-  release:
+  chart-release:
     runs-on: ubuntu-latest
     #    needs: [ validate-gh-pages-index ]
     steps:
