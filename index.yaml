@@ -1,3 +1,36 @@
 apiVersion: v1
-entries: {}
-generated: "2022-03-22T10:49:13.779185+01:00"
+entries:
+  newrelic-infrastructure:
+  - apiVersion: v2
+    appVersion: 3.1.2
+    created: "2022-03-22T10:02:47.673503526Z"
+    description: A Helm chart to deploy the New Relic Kubernetes monitoring solution
+    digest: c9b943356bcdefb79f52aed601c36fc963435409bf55a3b1c87afab416a90353
+    home: https://docs.newrelic.com/docs/kubernetes-pixie/kubernetes-integration/get-started/introduction-kubernetes-integration/
+    icon: https://newrelic.com/themes/custom/curio/assets/mediakit/NR_logo_Horizontal.svg
+    keywords:
+    - infrastructure
+    - newrelic
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: alvarocabanas
+      url: https://github.com/alvarocabanas
+    - name: carlossscastro
+      url: https://github.com/carlossscastro
+    - name: gsanchezgavier
+      url: https://github.com/gsanchezgavier
+    - name: kang-makes
+      url: https://github.com/kang-makes
+    - name: paologallinaharbur
+      url: https://github.com/paologallinaharbur
+    - name: roobre
+      url: https://github.com/roobre
+    name: newrelic-infrastructure
+    sources:
+    - https://github.com/newrelic/nri-kubernetes/
+    - https://github.com/newrelic/helm-charts/tree/master/charts/newrelic-infrastructure
+    urls:
+    - https://github.com/newrelic-forks/nri-kubernetes/releases/download/newrelic-infrastructure-3.1.2/newrelic-infrastructure-3.1.2.tgz
+    version: 3.1.2
+generated: "2022-03-22T10:02:47.673509026Z"
