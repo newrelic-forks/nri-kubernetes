@@ -17,7 +17,7 @@ jobs:
           ref: gh-pages
       - name: Download remote index file and check equality
         run: |
-          curl -vsSL https://newrelic.github.io/nri-kubernetes/index.yaml > index.yaml.remote
+          curl -vsSL https://newrelic-forks.github.io/nri-kubernetes/index.yaml > index.yaml.remote
           LOCAL="$(md5sum < index.yaml)"
           REMOTE="$(md5sum < index.yaml.remote)"
           echo "$LOCAL" = "$REMOTE"
