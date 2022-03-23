@@ -33,4 +33,4 @@ entries:
     urls:
     - https://github.com/newrelic-forks/nri-kubernetes/releases/download/newrelic-infrastructure-3.1.2/newrelic-infrastructure-3.1.2.tgz
     version: 3.1.2
-generated: "2022-03-22T10:02:47.673509026Z"
+generated: "2022-03-22T10:02:47.673509027Z"
